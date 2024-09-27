@@ -1,0 +1,49 @@
+    1  git -v
+    2  ls
+    3  cd Documents
+    4  ls
+    5  cd ..
+    6  clear
+    7  ls -l
+    8  clear
+    9  pwd
+   10  mkdir Prueba1
+   11  cd Prueba1
+   12  touch miarchivo.txt
+   13  echo "Hola mundo" > miarchivo.txt
+   14  cat miarchivo.txt
+   15  echo "Esta es una prueba de comandos bash." >> miarchivo.txt
+   16  cp miarchivo.txt miarchivocopiado.txt
+   17  cat miarchivocopiado.txt
+   18  cd ,,
+   19  cd ..
+   20  mkdir Prueba2
+   21  mv Prueba1/miarchivocopiado.txt Prueba2
+   22  mv Prueba2/miarchivocopiado.txt Prueba2/miarchivorenombrado.tx
+   23  rm Prueba2/miarchivorenombrado.tx
+   24  rm -r Prueba1
+   25  ls
+   26  ls
+   27  head El-arriero.txt
+   28  clear
+   29  ls
+   30  tail -n 2 El-arriero.txt
+   31  wc -w El-arriero.txt
+   32  head El-arriero.txt | wc -1
+   33  head El-arriero.txt | wc -l
+   34  head -n 2 El-arriero.txt | tr 'e' 'x'
+   35  cat El-arriero.txt | tr ' ' '\n'
+   36  cat El-arriero.txt | tr ' ' '\n' > El-arriero-palabras.txt
+   37  cat El-arriero.txt | sort | uniq -c
+   38  man wc
+   39  man rev
+   40  man wget
+   41  man grep
+   42  man sed
+   43  man awk
+   44  history
+   45  ls
+   46  wc -w El-arriero.txt
+   47  wc -w El-arriero.txt > ejercicio-1.txt
+   48  grep -o "vaquitas" El-arriero.txt | wc -l > ejercicio-2.txt
+   49  history | tail -50 > 50-comandos.log
